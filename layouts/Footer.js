@@ -233,7 +233,7 @@ const Footer2 = () => {
           <div className="row">
             <div className="col-xl-6">
               <p className="mil-text-s mil-dark-soft">
-                © 2024 Plax Finance &amp; Fintech Design
+                © 2024 MEXPay Finance
               </p>
             </div>
             <div className="col-xl-6">
