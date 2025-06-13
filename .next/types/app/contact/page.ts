@@ -1,4 +1,4 @@
-// File: C:\Users\caloy\Documents\Dreamcode\Mexpay\Corporate Website\corp\plax\app\contact\page.js
+// File: /Users/crisuy/Documents/PROJ/mexpay/mexpay-corporate-website/app/contact/page.js
 import * as entry from '../../../../app/contact/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
