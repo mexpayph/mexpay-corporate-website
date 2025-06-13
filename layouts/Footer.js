@@ -236,14 +236,6 @@ const Footer2 = () => {
                 © 2024 MEXPay Finance
               </p>
             </div>
-            <div className="col-xl-6">
-              <p className="mil-text-s mil-text-right mil-sm-text-left mil-dark-soft">
-                Developed by{" "}
-                <a href="https://bslthemes.com" target="blank">
-                  bslthemes
-                </a>
-              </p>
-            </div>
           </div>
         </div>
       </div>
