@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Preloader from '@/components/Preloader';
 
 export const metadata: Metadata = {
   title: "MEXPay - Your Money, Your Freedom",
@@ -13,6 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Preloader />
       <head>
         <link rel="shortcut icon" href="/assets/images/fav_icon.svg" />
         <link rel="stylesheet" href="/assets/css/bootstrap-lib/bootstrap.min.css" />
@@ -22,7 +24,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/slick.min.css" />
         <link rel="stylesheet" href="/assets/css/aos.css" />
       </head>
-      <body>
+      <body suppressHydrationWarning>
         {children}
         {/* JS Scripts */}
         <script src="/assets/js/javascript-lib/bootstrap.min.js"></script>

@@ -159,8 +159,8 @@ if (document.querySelector(".searchModal")) {
 }
 
 // ====== 1.1 header (dropdown bar) ======
-const dropdowns = document.querySelectorAll(".navbar .dropdown");
-dropdowns.forEach((dropdown) => {
+const dropdowns1 = document.querySelectorAll(".navbar .dropdown");
+dropdowns1.forEach((dropdown) => {
   const dropdownMenu = dropdown.querySelector(".dropdown-menu");
   dropdownMenu.style.maxHeight = "0";
   dropdown.addEventListener("mouseenter", () => {
