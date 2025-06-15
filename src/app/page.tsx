@@ -40,25 +40,6 @@ export default function Home() {
                       <li className="nav-item">
                         <a className="nav-link" href="Services.html">Services</a>
                       </li>
-                      <li className="dropdown">
-                        <a className="nav-link d-flex align-item-center gap-1">Pages<i
-                            className="fa-sharp fa-solid fa-sort-down"></i></a>
-                        <ul className="dropdown-menu" suppressHydrationWarning>
-                          <li><a className="dropdown-item" href="Pricing.html">Pricing</a></li>
-                          <li>
-                            <a className="dropdown-item" href="Testimonials.html">Testimonials</a>
-                          </li>
-                          <li><a className="dropdown-item" href="Team.html">Team</a></li>
-                          <li><a className="dropdown-item" href="Blogs.html">Blogs</a></li>
-                          <li>
-                            <a className="dropdown-item" href="BlogDetails.html">Blog Details</a>
-                          </li>
-                          <li><a className="dropdown-item" href="Error.html">404</a></li>
-                          <li>
-                            <a className="dropdown-item" href="ComingSoon.html">Coming Soon</a>
-                          </li>
-                        </ul>
-                      </li>
                       <li className="nav-item">
                         <a className="nav-link" href="Contact.html">Contact</a>
                       </li>
@@ -109,27 +90,6 @@ export default function Home() {
                 <li className="nav-item">
                   <a href="Contact.html">Contact</a>
                 </li>
-                <li className="nav-item">
-                  <div className="d-flex align-items-center justify-content-between" id="slid-btn">
-                    <button className="a-slid page-btn">Pages</button>
-                    <i className="fa-solid fa-caret-down pe-2"></i>
-                  </div>
-                  <ul id="slid-drop">
-                    <li><a href="Pricing.html">Pricing</a></li>
-                    <li>
-                      <a href="Testimonials.html">Testimonials</a>
-                    </li>
-                    <li><a href="Team.html">Team</a></li>
-                    <li><a href="Blogs.html">Blogs</a></li>
-                    <li>
-                      <a href="BlogDetails.html">Blog Details</a>
-                    </li>
-                    <li><a href="Error.html">404</a></li>
-                    <li>
-                      <a href="ComingSoon.html">Coming Soon</a>
-                    </li>
-                  </ul>
-                </li>
               </ul>
             </div>
           </aside>
@@ -145,43 +105,13 @@ export default function Home() {
                   <div>
                     <h1>More Than <span>A Wallet</span></h1>
                     <h1>A Financial Revolution</h1>
-                    <p>MEXPay is the next-generation financial app designed to give you complete control over your money. Send, receive, and manage your funds with ease—securely and seamlessly.</p>
-                    <p>Sign up now and experience financial freedom like never before.</p>
-                    <div className="my-lg-2 my-md-3">
-                      <a href="About.html" className="hover2">
-                        Get Started
-                      </a>
-                    </div>
-                  </div>
-                  <div className="mt-1">
-                    <h5>Over <span className="number" data-final-value="5000"></span>+ Reviews</h5>
-                    <div className="d-flex">
-                      <figure><img src="assets/images/index/reviewImg_1.webp" alt="reviewImg_1" /></figure>
-                      <figure><img src="assets/images/index/reviewImg_2.webp" alt="reviewImg_2" /></figure>
-                      <figure><img src="assets/images/index/reviewImg_3.webp" alt="reviewImg_3" /></figure>
-                      <div className="rounded-circle d-flex justify-content-center align-items-center position-relative">
-                        <h5 className="p-0 ps-1"><span className="number" data-final-value="5"></span>K+</h5>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="position-relative d-flex flex-lg-row flex-column h-100">
-                  <div className="d-flex flex-lg-column align-items-end w-100" data-aos="fade-down">
-                    <div className="pe-lg-3">
-                      <h2><span className="number" data-final-value="93"></span>k+</h2>
-                      <p>Satisfied user</p>
-                    </div>
-                    <div className="pe-lg-1">
-                      <h2><span className="number" data-final-value="4.9"></span>/5</h2>
-                      <p>Client Rating</p>
-                    </div>
-                    <div className="pe-lg-3">
-                      <h2><span className="number" data-final-value="99"></span>%</h2>
-                      <p>Secure Payments</p>
-                    </div>
-                  </div>
+                <div className="d-flex flex-column">
+                  <p>MEXPay is the next-generation financial app designed to give you complete control over your money. Send, receive, and manage your funds with ease—securely and seamlessly.</p>
+                  <p>Sign up now and experience financial freedom like never before.</p>
                 </div>
               </div>
             </div>
@@ -195,43 +125,6 @@ export default function Home() {
               <hr className="flex-grow-1" />
               <h5>Our Solution Partners</h5>
               <hr className="flex-grow-1" />
-            </div>
-          </div>
-          <div className="PartnersSlider" data-aos="zoom-in" suppressHydrationWarning>
-            <div suppressHydrationWarning>
-              <a href="#" suppressHydrationWarning>
-                <img src="assets/images/icons/partnerlogo1.svg" alt="partner1" />
-              </a>
-            </div>
-            <div suppressHydrationWarning>
-              <a href="#">
-                <img src="assets/images/icons/partnerlogo2.svg" alt="partner2" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="assets/images/icons/partnerlogo3.svg" alt="partner3" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="assets/images/icons/partnerlogo4.svg" alt="partner4" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="assets/images/icons/partnerlogo1.svg" alt="partner5" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="assets/images/icons/partnerlogo3.svg" alt="partner6" />
-              </a>
-            </div>
-            <div>
-              <a href="#">
-                <img src="assets/images/icons/partnerlogo4.svg" alt="partner7" />
-              </a>
             </div>
           </div>
         </section>
@@ -354,7 +247,7 @@ export default function Home() {
                       </figure>
                       <div>
                         <p className="p-0">Incomes</p>
-                        <p className="pt-1">$<span className="number" data-final-value="2750.50"></span></p>
+                        <p className="pt-1">₱<span className="number" data-final-value="2750.50"></span></p>
                       </div>
                     </div>
                     <div className="d-flex flex-column gap-lg-3" data-aos="flip-left">
@@ -362,7 +255,7 @@ export default function Home() {
                           src="assets/images/icons/icon_expenses.svg" alt="icon_expenses" /></figure>
                       <div>
                         <p className="p-0">Expenses</p>
-                        <p className="pt-1">$<span className="number" data-final-value="1240.75"></span></p>
+                        <p className="pt-1">₱<span className="number" data-final-value="1240.75"></span></p>
                       </div>
                     </div>
                   </div>
@@ -418,167 +311,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <!-- ======== End of 1.6. Download section ========  -->
-        <!-- ======== 1.7. Benefits section ======== --> */}
-        <section className="Benefits">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-7">
-                <div
-                  className="d-flex flex-column h-100 gap-md-5 gap-4 justify-content-between justify-content-xl-start pb-lg-0 pb-5"
-                  data-aos="fade-up">
-                  <h2>You Can Send Money On Your <span>Finger Tips</span></h2>
-                  <div className="d-flex gap-0 position-relative">
-                    <div className="d-flex flex-column gap-5">
-                      <div className="d-flex flex-column gap-3">
-                        <h5>John Smith Sending</h5>
-                        <div className="d-flex gap-4 align-items-center">
-                          <figure>
-                            <img src="assets/images/index/sender.webp" alt="sender" />
-                          </figure>
-                          <p>$<span className="number" data-final-value="466.53"></span></p>
-                        </div>
-                      </div>
-                      <div className="d-flex flex-column gap-3">
-                        <h5>William Recieving</h5>
-                        <div className="d-flex gap-4 align-items-center">
-                          <figure>
-                            <img src="assets/images/index/reciever.webp" alt="reciever" />
-                          </figure>
-                          <p>$<span className="number" data-final-value="466.53"></span></p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="d-flex flex-column py-4">
-                      <figure>
-                        <img src="assets/images/icons/flag1.svg" alt="flag" />
-                      </figure>
-                      <figure className="d-flex align-items-center justify-content-center">
-                        <img src="assets/images/icons/telegram.png" alt="telegram" />
-                      </figure>
-                      <figure>
-                        <img src="assets/images/icons/flag2.svg" alt="flag" />
-                      </figure>
-                    </div>
-                    <div className="position-absolute p-4 d-flex align-items-center gap-3">
-                      <div>
-                        <figure>
-                          <i className="fa-solid fa-check"></i>
-                        </figure>
-                      </div>
-                      <p>Your Payment has been successful</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-5">
-                <figure className="position-relative pt-5 pt-lg-0" data-aos="zoom-in-up">
-                  <img className="w-100" src="assets/images/index/benefitsMobile.webp" alt="mobile" />
-                </figure>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* <!-- ======== End of 1.7. Benefits section ======== -->
-        <!-- ======== 1.8. Testimonials section ======== --> */}
-        <section className="Testimonials">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6 col-lg-6">
-                <div className="d-flex flex-column gap-4 h-100 justify-content-center position-relative" data-aos="fade-up">
-                  <h2>What Customers say About Us</h2>
-                  <p>Lorem ipsum dolor sit amet consectetur. Scelerisque tincidunt nibh molestie nisi egestas
-                    nulla massa.
-                    Scelerisque ipsum sem sed nisi molestie tortor tincidunt.</p>
-                  <div className="d-flex flex-row">
-                    <div className="d-flex flex-column">
-                      <h3><span className="number" data-final-value="93"></span>k+</h3>
-                      <p>Satisfied user</p>
-                    </div>
-                    <div className="d-flex flex-column">
-                      <h3><span className="number" data-final-value="4.9"></span>/5</h3>
-                      <p>Client Rating</p>
-                    </div>
-                    <div className="d-flex flex-column">
-                      <h3><span className="number" data-final-value="100"></span>k+</h3>
-                      <p>App Download</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 col-lg-6">
-                <div className="d-flex flex-column ps-lg-5 justify-content-between pt-5 pt-md-0">
-                  <div className="d-flex gap-4 align-items-center position-relative" data-aos="fade-up">
-                    <figure className="position-absolute">
-                      <img src="assets/images/icons/comma.svg" alt="comma" />
-                    </figure>
-                    <figure>
-                      <img src="assets/images/index/testimonial_1.webp" alt="john" />
-                    </figure>
-                    <div className="d-flex flex-column gap-1">
-                      <div>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                      </div>
-                      <div className="py-md-1">
-                        <h6>John Smith</h6>
-                        <p>Designer</p>
-                      </div>
-                      <p className="p-0">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.</p>
-                    </div>
-                  </div>
-                  <div className="d-flex gap-4 align-items-center position-relative" data-aos="fade-up">
-                    <figure className="position-absolute">
-                      <img src="assets/images/icons/comma.svg" alt="comma" />
-                    </figure>
-                    <figure>
-                      <img src="assets/images/index/reciever.webp" alt="william" />
-                    </figure>
-                    <div className="d-flex flex-column gap-1">
-                      <div>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                      </div>
-                      <div className="py-md-1">
-                        <h6>William John</h6>
-                        <p>Developer</p>
-                      </div>
-                      <p className="p-0">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.</p>
-                    </div>
-                  </div>
-                  <div className="d-flex gap-4 align-items-center position-relative" data-aos="fade-up">
-                    <figure className="position-absolute">
-                      <img src="assets/images/icons/comma.svg" alt="comma" />
-                    </figure>
-                    <figure>
-                      <img src="assets/images/index/testimonial_3.webp" alt="Anna" />
-                    </figure>
-                    <div className="d-flex flex-column gap-1">
-                      <div>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                        <i className="fa-solid fa-star"></i>
-                      </div>
-                      <div className="py-1">
-                        <h6>Anna Williams</h6>
-                        <p>Freelancer</p>
-                      </div>
-                      <p className="p-0">Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         {/* <!-- ======== End of 1.8. Testimonials section ======== -->
         <!-- ======== 1.9. Pricing section ======== */}
         <section className="FAQs">
@@ -587,25 +319,18 @@ export default function Home() {
               <div className="col-md-6 col-lg-7">
                 <div data-aos="fade-up">
                   <h2>Frequently Asked <span>Questions</span></h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                    has
-                    been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply
-                    dummy
-                    text.</p>
                   <div>
                     <div className="accordion accordion-flush d-flex flex-column" id="accordionExample">
                       <div className="accordion-item">
                         <h2 className="accordion-header">
                           <button className="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            How do I sign up for MEXPay?
                           </button>
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                           <div className="accordion-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                              industry. Lorem Ipsum has been the industry's standard dummy text
-                              ever since the 1500s.</p>
+                            <p>Download the app and register using your phone number or email.</p>
                           </div>
                         </div>
                       </div>
@@ -613,14 +338,12 @@ export default function Home() {
                         <h2 className="accordion-header">
                           <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            Is MEXPay safe to use?
                           </button>
                         </h2>
                         <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div className="accordion-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                              industry. Lorem Ipsum has been the industry's standard dummy text
-                              ever since the 1500s.</p>
+                            <p>Yes! We use bank-level security, encryption, and MFA to protect your data.</p>
                           </div>
                         </div>
                       </div>
@@ -628,29 +351,12 @@ export default function Home() {
                         <h2 className="accordion-header">
                           <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            Can I send money to someone who doesn’t have MEXPay?
                           </button>
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div className="accordion-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                              industry. Lorem Ipsum has been the industry's standard dummy text
-                              ever since the 1500s.</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="accordion-item">
-                        <h2 className="accordion-header">
-                          <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                          </button>
-                        </h2>
-                        <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                          <div className="accordion-body">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-                              industry. Lorem Ipsum has been the industry's standard dummy text
-                              ever since the 1500s.</p>
+                            <p>Yes! Recipients will receive a link to claim their funds.</p>
                           </div>
                         </div>
                       </div>
@@ -696,8 +402,7 @@ export default function Home() {
                     <img src="assets/images/logo.svg" alt="logo" />
                   </a>
                 </figure>
-                <p className="m-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                  Ipsum </p>
+                <p className="m-0">MEXPay - A Financial Revolution</p>
                 <div className="d-flex gap-lg-4 gap-md-3 flex-row">
                   <a href="#">
                     <figure className="d-flex justify-content-center align-items-center">
@@ -723,11 +428,11 @@ export default function Home() {
                 className="d-flex flex-column gap-lg-4 d-flex align-items-md-start align-items-center text-md-start text-center ms-0">
                 <h5>Contact US</h5>
                 <ul>
-                  <li><a href="#">120 Genève NR21, West Lancashire, England</a></li>
+                  <li><a href="#">Quezon City</a></li>
                   <li>
                     Need help? Call us
                     <a href="#">
-                      <span className="d-block">(+122) 34 5678 9100</span></a>
+                      <span className="d-block">(+63) 02 5678 9100</span></a>
                   </li>
                   <li><a href="#">support@example.com</a></li>
                 </ul>
@@ -759,7 +464,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-100 text-center py-lg-4 py-3">
-              <p>Copyright &copy; <span id="year"></span> MEXPay - A Financial Revolution. All Rights Reserved.</p>
+              <p>Copyright &copy; 2025 MEXPay - A Financial Revolution. All Rights Reserved.</p>
             </div>
           </div>
           {/* <!-- scroll to top  --> */}

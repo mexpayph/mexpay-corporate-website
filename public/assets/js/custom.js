@@ -159,8 +159,8 @@ if (document.querySelector(".searchModal")) {
 }
 
 // ====== 1.1 header (dropdown bar) ======
-const dropdowns1 = document.querySelectorAll(".navbar .dropdown");
-dropdowns1.forEach((dropdown) => {
+const dropdowns = document.querySelectorAll(".navbar .dropdown");
+dropdowns.forEach((dropdown) => {
   const dropdownMenu = dropdown.querySelector(".dropdown-menu");
   dropdownMenu.style.maxHeight = "0";
   dropdown.addEventListener("mouseenter", () => {
@@ -289,7 +289,7 @@ function animateNumbers(num, finalValue, duration, isDecimal) {
   num.style.display = "inline-block";
   num.style.width = `${charCount}ch`;
   const numberFormatter = new Intl.NumberFormat(
-    "en-US",
+    "en-PH",
     isDecimal ? { minimumFractionDigits: 1, maximumFractionDigits: 1 } : {}
   );
   function step(timestamp) {
