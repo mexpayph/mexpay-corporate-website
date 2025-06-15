@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { open_aside, close_aside } from '../utils/aside';
 
 export default function Home() {
   useEffect(() => {
@@ -23,7 +24,7 @@ export default function Home() {
               </a>
               {/* <!-- navigation button  --> */}
               <div className="d-flex gap-3 flex-row-reverse">
-                <button className="open-aside" type="button">
+                <button className="open-aside" onClick={open_aside} type="button">
                   <i className="fa-solid fa-bars"></i>
                 </button>
                 {/* <!-- navigation bar manu  --> */}
@@ -45,11 +46,11 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                  <div className="search SearchModal">
+                  {/* <div className="search SearchModal">
                     <a href="#">
                       <i className="fa-solid fa-magnifying-glass"></i>
                     </a>
-                  </div>
+                  </div> */}
                   <div>
                     <a href="#" className="hover1 down-btn" id="getStartedAnchor">Get Started</a>
                   </div>
@@ -57,7 +58,7 @@ export default function Home() {
               </div>
             </div>
           </nav>
-          <div className="modal searchModal">
+          {/* <div className="modal searchModal">
             <button className="close-btn d-flex" >&times;</button>
             <div className="position-relative d-flex align-items-center justify-content-center ">
               <input type="text" placeholder="Search..." name="search" />
@@ -65,7 +66,7 @@ export default function Home() {
                 <img src="assets/images/icons/search.svg" alt="search" />
               </button>
             </div>
-          </div>
+          </div> */}
           {/* <!--===== aside navigation slidebar =====--> */}
           <aside>
             <div id="mySidenav" className="right-sidbar">
@@ -75,7 +76,7 @@ export default function Home() {
                     <img src="assets/images/logo.svg" alt="Logo" />
                   </a>
                 </figure>
-                <button className="fa-solid fa-xmark" ></button>
+                <button className="fa-solid fa-xmark" onClick={close_aside}></button>
               </div>
               <ul className="pt-4">
                 <li className="nav-item active">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Preloader from '@/components/Preloader';
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: "MEXPay - Your Money, Your Freedom",
